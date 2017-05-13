@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5dae3063-c0b4-47d7-9b53-0412160e112c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase">
+      <UniqueIdentifier>{b7b7f4e8-1ecf-42d0-9621-ce4a88f3c785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OJ.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CExampleTest.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OJ.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CExampleTest.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
